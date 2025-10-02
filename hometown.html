@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hometown</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffb6c1;">
+        <div class="container">
+            <img src="img/IMG_1011.PNG" alt="Logo" width="50" height="70" class="me-2">
+            <span class="fw-bold text-pink">Samurai</span>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/quiz1/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/quiz1/profile.html">Profile</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/quiz1/hometown.html">Hometown</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/quiz1/food.html">Local Food</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/quiz1/tourist.html">Tourist Places</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hometown" class="text-center py-5" style="background-color: #ffe4e9;">
+            <div class="container">
+                <h1 class="fw-bold text-pink">Surabaya Metropolitan City</h1>
+
+                <img src="img/surabaya.jpg" alt="Surabaya View" width="400" class="mb-3">
+                
+                <div class="d-flex justify-content-center my-3">
+                    <button id="play" class="btn btn-success">▶ Play</button>
+                    <button id="pause" class="btn btn-danger">⏸ Pause</button>
+                    <button id="stop" class="btn btn-secondary">⏹ Stop</button>
+
+                    <audio id="audio">
+                        <source src="img/city-ambience-9264.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                
+                
+                <p>
+                    Surabaya is the capital of East Java Province and the center of government and economy as well as the largest city in the province. 
+                    Surabaya is also a city located in East Java Province, Indonesia. 
+                    Surabaya is the second largest city in Indonesia after Jakarta.
+                    Surabaya is characterized by an open, friendly and expressive society, 
+                    as well as a distinctive "Suroboyoan" dialect with the greetings "Cak" and "Ning".
+                    As Surabaya reflects a vibrant metropolitan city, it has plenty of local food and tourist attractions for you to explore!
+                </p>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="text-center py-4" style="background-color: #ffb6c1; color: white;">
+        <p class="mb-1">Author: <strong>Salwa Nadia Maharani</strong> (5025241041)</p>
+        <p class="mb-1">&copy; 2025 All rights reserved</p>
+        <a href="mailto:esenem04@gmail.com" class="text-white fw-semibold">✉️ esenem04@gmail.com</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="audio.js"></script>
+</body>
+</html>
